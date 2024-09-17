@@ -2,40 +2,38 @@
 
 ## Description
 
-The "gtfo-radix" extension is designed to streamline your development process by removing unwanted import suggestions from `@radix-ui` when `shadcnui` is active. This extension ensures that only relevant import suggestions are presented, enhancing your coding efficiency and avoiding unnecessary distractions.
+The "gtfo-radix" extension is designed to enhance your development workflow by removing all import suggestions from `@radix-ui`. This extension ensures that no import suggestions from `@radix-ui` are shown, helping you focus on relevant imports and streamline your coding experience.
 
 ## Features
 
-- **Filtered Import Suggestions**: Automatically filters out suggestions from `@radix-ui` when `shadcnui` is detected in your project, allowing only relevant imports to be suggested.
+- **Blocked Import Suggestions**: Completely removes suggestions from `@radix-ui` to prevent unwanted imports.
 - **Seamless Integration**: Works with TypeScript and JavaScript files to provide a cleaner and more focused development experience.
 
-
-> Tip: Consider adding a short animation or a series of screenshots to demonstrate how the extension filters suggestions effectively.
+> Tip: Consider adding a short animation or screenshots to demonstrate how the extension effectively removes unwanted suggestions.
 
 ## Requirements
 
 - **VSCode**: Ensure you are using a recent version of Visual Studio Code.
-- **ShadCN**: The extension relies on the presence of `shadcnui` in your project to function correctly.
 
 ## Extension Settings
 
-This extension does not require additional settings configuration. It automatically detects the presence of `shadcnui` and applies the import filtering accordingly.
+This extension does not require additional settings configuration. It automatically filters out all import suggestions from `@radix-ui`.
 
 ## Known Issues
 
-- **Compatibility**: The extension might not function as expected if `shadcnui` is not properly configured or detected.
-- **Edge Cases**: Certain edge cases with complex import paths might require additional adjustments.
+- **Compatibility**: The extension might not function as expected if there are issues with how import suggestions are generated or if conflicting extensions are active.
+- **Edge Cases**: Certain complex import paths or configurations may require further adjustments.
 
 ## Release Notes
 
 ### 1.0.0
 
-- Initial release of "gtfo-radix" with basic functionality to filter import suggestions from `@radix-ui`.
+- Initial release of "gtfo-radix" with functionality to block all import suggestions from `@radix-ui`.
 
 ### 1.1.0
 
-- Improved detection mechanism for `shadcnui` configuration.
-- Fixed issues with suggestion filtering in edge cases.
+- Improved handling of import suggestions and filtering logic.
+- Fixed issues related to suggestion filtering in various scenarios.
 
 ---
 
